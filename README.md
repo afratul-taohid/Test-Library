@@ -24,8 +24,9 @@ For starting the location service:
 
 ````java
 LocationHelper.with(this).updateLocation(new LocationCallBack() {
-            @Override
-            public void onLocationCallBack(Location location) {
-            }
-        });
+      @Override
+      public void onLocationCallBack(Location location) {
+            //here are your location
+      }
+});
 ````
