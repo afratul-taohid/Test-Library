@@ -1,7 +1,7 @@
 Location Helper Library
 ======================
 
-[![](https://jitpack.io/v/afratul-taohid/Test-Library.svg)](https://jitpack.io/#afratul-taohid/Test-Library)
+[![](https://jitpack.io/v/afratul-taohid/Test-Library.svg)](https://jitpack.io/#afratul-taohid/Test-Library/0.2.0)
 
 Android library project that intends to simplify the usage of location providers and activity recognition with a nice fluid API.
 
