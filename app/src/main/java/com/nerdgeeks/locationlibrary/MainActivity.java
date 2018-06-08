@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LocationHelper.with(this).updateLocation( new LocationCallBack() {
+        LocationHelper.with(this).updateLocation(new LocationCallBack() {
             @Override
             public void onLocationCallBack(Location location) {
                 Toast.makeText(MainActivity.this, "Location Updated with latlng - "+ location.getLatitude(), Toast.LENGTH_SHORT).show();
