@@ -46,6 +46,4 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ````
 
-## Thats all u have to do.. Happy Coding
-
 ## NerdGeeeks Team
