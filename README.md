@@ -7,7 +7,7 @@ Android library project that intends to simplify the usage of location providers
 
 Adding to your project
 ----------------------
-Add maven to project gradle
+Add maven to project
 
 ```groovy
 allprojects {
