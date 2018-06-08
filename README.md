@@ -7,11 +7,22 @@ Android library project that intends to simplify the usage of location providers
 
 Adding to your project
 ----------------------
-
-You should add this to your dependencies:
+Add maven to project gradle
 
 ```groovy
-implementation 'com.github.afratul-taohid:Test-Library:0.3.0'
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+then You should add this to your dependencies:
+
+```groovy
+dependencies {
+      implementation 'com.github.afratul-taohid:Test-Library:0.3.0'
+}
 ```
 
 Google Play Services compatible version: 15.0.1
