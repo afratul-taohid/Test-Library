@@ -1,7 +1,7 @@
 Location Helper Library
 ======================
 
-[ ![Core](https://api.bintray.com/packages/drummer-aidan/maven/material-dialogs%3Acore/images/download.svg) ](https://bintray.com/drummer-aidan/maven/material-dialogs%3Acore/_latestVersion)
+[![](https://jitpack.io/v/afratul-taohid/Test-Library.svg)](https://jitpack.io/#afratul-taohid/Test-Library)
 
 Android library project that intends to simplify the usage of location providers and activity recognition with a nice fluid API.
 
