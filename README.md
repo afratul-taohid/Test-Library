@@ -30,3 +30,18 @@ LocationHelper.with(this).updateLocation(new LocationCallBack() {
       }
 });
 ````
+
+Pass The Request Permission Result
+````java
+@Override
+public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+    LocationHelper.with(this).onRequestPermissionsResult(requestCode, permissions, grantResults);
+}
+````
+Pass The Activity Result
+````java
+@Override
+public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    LocationHelper.with(this).onActivityResult(requestCode,resultCode,data);
+}
+````
