@@ -1,4 +1,4 @@
-Location Helper Library
+Location Helper Library by NerdGeeks Team
 ======================
 
 [![](https://jitpack.io/v/afratul-taohid/Test-Library.svg)](https://jitpack.io/#afratul-taohid/Test-Library/0.3.0)
@@ -45,3 +45,7 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
     LocationHelper.with(this).onActivityResult(requestCode,resultCode,data);
 }
 ````
+
+## Thats all u have to do.. Happy Coding
+
+## NerdGeeeks Team
